@@ -1,0 +1,126 @@
+*{
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Poiret One;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Poiret One'), url(http://fonts.gstatic.com/s/poiretone/v4/HrI4ZJpJ3Fh0wa5ofYMK8QzyDMXhdD8sAj6OAJTFsBI.woff2);
+}
+
+body {
+  width: 1280px;
+  margin: auto;
+  font-family: helvetica, arial, sans-serif;
+}
+
+.site-header {
+  background-image: url('../img/header-background.jpg');
+  height: 520px;
+}
+
+.logo {
+  background-image: url('../img/logo.png');
+
+}
+
+@font-face {
+  font-family: Oleo Script;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oleo Script'), url(http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjogp9Q8gbYrhqGlRav_IXfk.woff2);
+}
+
+.main-heading {
+  font-family: Poiret One;
+  text-align: center;
+  padding-top: 200px;
+  font-size: 75px;
+  color: white;
+  text-shadow: black 2px 2px;
+
+}
+
+.subheader-msg {
+  font-family: Oleo Script;
+  text-align: center;
+  font-size: 22px;
+  color: white;
+  margin-top: 50px;
+  text-shadow: black 2px 2px;
+}
+
+.single-img-card {
+  display: flex;
+}
+
+.divider {
+  width: 50%;
+  border: 1px white solid;
+}
+
+li {
+  display: flex;
+}
+
+.single-img-card {
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#left-img {
+  background-image: url('../img/left-img.jpg');
+  margin-left: 100px;
+}
+
+#middle-img {
+  background-image: url('../img/middle-img.jpg');
+}
+
+#right-img {
+  background-image: url('../img/right-img.jpg');
+}
+
+.primary-text {
+  padding: 30px 200px 30px 200px;
+  background-color: #43996A;
+  color: white;
+  font-family: Poiret One;
+  text-align: center;
+  font-size: 40px;
+  text-shadow: black 2px 2px;
+}
+footer {
+  background-color: #333333;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.site-footer-text {
+  color: white;
+  text-align: center;
+  font-weight: 500;
+}
+
+.contact-wrapper {
+  font-family: Poiret One;
+  text-align: center;
+  font-size: 26px;
+  margin-left: 175px;
+  margin-right: 175px;
+}
+
+.fa-envelope-o {
+  color: black;
+}
+
+.contact-email {
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
